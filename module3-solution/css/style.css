@@ -1,0 +1,66 @@
+body {
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+    color: #000;
+}
+
+#header-nav {
+    background-color: #333333;
+    border: 0;
+    border-radius: 0;
+}
+
+#header-nav .navbar-brand {
+    height: auto;
+}
+
+/* Food, LLC */
+#header-nav .navbar-brand h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #f8b02d;
+    text-shadow: 1px 1px 5px #000;
+}
+
+#header-nav button {
+    margin: 15px;
+}
+
+#header-nav a {
+    text-decoration: none;
+}
+
+#header-nav a:hover,
+#header-nav a:focus {
+    text-decoration: none;
+}
+
+/* Our Menu */
+#main-content h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 1.6em;
+    font-weight: bold;
+    color: #9a3324;
+}
+
+#chicken,
+#beef,
+#sushi {
+    color: black;
+    background-color: #cccccc;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#chicken .header,
+#beef .header,
+#sushi .header {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#collapsable-nav a span {
+    color: #fff;
+}
